@@ -28,6 +28,10 @@ source .venv/bin/activate
 ## run tests
 python -m pytest -o markers=task hello_world_test.py
 
+## run specific tests
+python -m pytest -o markers=task currency-exchange/exchange_test.py -k 'test_exchange_money'
+
+
 ## run lint
 pylint guidos-gorgeous-lasagna/lasagna.py -v
 

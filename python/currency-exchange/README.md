@@ -124,7 +124,6 @@ Create the `get_value_of_bills()` function, taking 2 parameters:
 2. `number_of_bills` : Amount of bills you received.
 
 This exchanging booth only deals in cash of certain increments.
-The total you receive must be divisible by the value of one "bill" or unit, which can leave behind a fraction or remainder.
 Your function should return only the total value of the bills (_excluding fractional amounts_) the booth would give back.
 Unfortunately, the booth gets to keep the remainder/change as an added bonus.
 
