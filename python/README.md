@@ -36,4 +36,7 @@ pylint guidos-gorgeous-lasagna/lasagna.py -v
 
 ## submit exercises
 exercism submit guidos-gorgeous-lasagna/lasagna.py
+
+## down a new task (run from project root)
+exercism download --exercise=ghost-gobble-arcade-game --track=python
 ```
